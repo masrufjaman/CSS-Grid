@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+
+  /* grid-template-columns: 1fr 1fr 1fr; Every column will change using 1 fraction unit */
+  /* grid-template-columns: repeat(
+    3,
+    1fr
+  );  */
+  /*Same work using repeat
+  3 is the ammount of the rows and the columns
+  1fr is the value*/
+
+  /* grid-template-rows: 50px 50px; */
+  /* grid-template-rows: repeat(2, 50px);  */
+  /*we also do this*/
+
+  /* Shorthand tech */
+  grid-template: repeat(2, 50px) / repeat(3, 1fr); /* 1st one for the rows & 2nd on for columns */
+
+  grid-gap: 3px;
+}

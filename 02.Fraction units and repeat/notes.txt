@@ -1,0 +1,6 @@
+we can set value for 1fr where all the grid will be same.
+
+we can use -> repeat(3, 1fr);
+
+we can use grid-template: repeat() / repeat();
+1st on for rows, 2nd on for column
